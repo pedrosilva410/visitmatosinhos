@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="./src/styles.css" />
 	<title>Document</title>
 </head>
 
@@ -13,27 +13,28 @@
 
 	<header>
 		<h1>Visit Matosinhos</h1>
-		<h3>Enjoy food and beaches in this energetic city, part of the Porto district in Portugal</h3>
+		<h2>Enjoy food and beaches in this energetic <br> city, part of the Porto district in Portugal</h2>
 	</header>
 
 	<main>
 		<div class="activities">
-			<ul>
-				<li>
-					<img src="./src/images/beach.jpg" alt="beach">
+			<h3 class="activitiesTitle">Top 3 activities to do in Matosinhos</h3>
+			<ul class="activityList">
+				<li class="activityItem">
+					<img class="activityImg" src="./src/images/beach.jpg" alt="beach">
 					<h4>Visit some of the most beautiful beaches in the Portuguese coast</h4>
 					<p>From the Matosinhos beach all the way to Angeiras there are 21 beaches to be explored</p>
 				</li>
 
-				<li>
-					<img src="./src/images/park.jpg" alt="park">
+				<li class="activityItem">
+					<img class="activityImg" src="./src/images/park.jpg" alt="park">
 					<h4>Go for a picnic in one of the largest parks in Portugal</h4>
 					<p>Parque da Cidade is one of the biggest parks in Portugal, from beautiful lakes and scenery to wild life
 						there is plenty to see</p>
 				</li>
 
-				<li>
-					<img src="./src/images/seaLife.jpg" alt="Sea Life">
+				<li class="activityItem">
+					<img class="activityImg" src="./src/images/seaLife.jpg" alt="Sea Life">
 					<h4>Learn about Ocean Life at SEA LIFE Matosinhos</h4>
 					<p>With 31 Aquariums there are plenty of fishes and sea life creatures to get to know</p>
 				</li>
@@ -41,21 +42,25 @@
 
 		</div>
 
-		<div class="funFacts"></div>
+		<div class="funFacts">
 
-		<ul>
-			<li>
-				<img src="./src/images/flag.png" alt="Matosinhos flag">
-				<p>Did you know Matosinhos has its own flag?</p>
-			</li>
+			<h3 class="factTitle">Fun facts about Matosinhos</h3>
 
-			<li>
-				<img src="./src/images/sara.jpeg" alt="Sara Sampaio">
-				<p> Sara Sampaio was actually born and raised in Matosinhos</p>
-			</li>
-		</ul>
+			<ul class="facts">
+				<li class="factItem">
+					<img class="factImg" src="./src/images/flag.png" alt="Matosinhos flag">
+					<h4>Did you know Matosinhos has its own flag?</p>
+				</li>
 
-		<div class="guide">
+				<li class="factItem">
+					<img class="factImg" src="./src/images/sara.jpeg" alt="Sara Sampaio">
+					<h4> Sara Sampaio was born and raised in Matosinhos</p>
+				</li>
+			</ul>
+
+		</div>
+
+		<div class="card">
 			<img class="avatar" src="./src/images/pedro.jpeg">
 			<div>
 				<h3>Your Guide</h3>
@@ -66,7 +71,9 @@
 
 	</main>
 
-	<footer> Coded with love by Pedro</footer>
+	<footer>
+		<p>Coded with love by <a class="gitLink" href="https://github.com/pedrosilva410" target="_blank">Pedro</a></p>
+	</footer>
 
 </body>
 
