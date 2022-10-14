@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --slateBlue: #1a3272;
+  --oxfordBlue: #101d42;
+  --mediumChampagne: #dfd5a5;
+  --earthYellow: #dbad6a;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  color: var(--slateBlue);
+  text-align: center;
+}
+
+header {
+  height: 500px;
+  width: 100%;
+  background-image: url("./images/matosinhos.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  background-color: var(--oxfordBlue);
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #fff;
+  background-color: var(--slateBlue);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+h4 {
+  margin-bottom: 6px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.activities {
+  width: 100%;
+  height: 350px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--mediumChampagne);
+  border-bottom: 8px solid var(--earthYellow);
+}
+
+.activitiesTitle {
+  margin-bottom: 20px;
+}
+
+.activityList {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.activityItem {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.activityImg {
+  height: 150px;
+  width: 166px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.funFacts {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--mediumChampagne);
+  border-bottom: 8px solid var(--earthYellow);
+}
+
+.facts {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.factItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.factImg {
+  width: 100px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 150px;
+}
+
+.card {
+  text-decoration: none;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: var(--earthYellow);
+  border-bottom: 8px solid var(--mediumChampagne);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 1s ease-in-out;
+}
+
+.card:hover {
+  transform: rotate(360deg);
+}
+
+footer {
+  margin-bottom: 10px;
+}
+
+.gitLink {
+  font-weight: bold;
+  border-bottom: 2px solid var(--slateBlue);
+}
